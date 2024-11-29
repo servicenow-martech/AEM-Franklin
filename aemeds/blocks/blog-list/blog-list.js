@@ -171,8 +171,12 @@ export default async function decorate(block) {
   }
 
   // retrieve and filter blog entries
+  let chunkSize = 250;
+  if (filterKey === 'author') {
+    chunkSize = 1048576;
+  }
   const blogs = ffetch(BLOG_QUERY_INDEX)
-    .chunks(250)
+    .chunks(chunkSize)
     .sheet('blogs')
     .filter(BLOG_FILTERS.locale)
     .filter((blog) => filter(filterValue, blog));
