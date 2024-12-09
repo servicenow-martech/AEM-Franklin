@@ -6,11 +6,11 @@ import Picker from './picker.js';
 import './styles.css';
 
 const pageURL = (path) => {
-    return `https://main--aemeds--servicenow-martech.hlx.page${path}`;
+    return `https://main--aemeds--servicenow-martech.aem.page${path}`;
 }
 
 const liveURL = (path) => {
-    return `https://main--aemeds--servicenow-martech.hlx.page${path}`;
+    return `https://main--aemeds--servicenow-martech.aem.page${path}`;
 }
 
 const LOCALES = [

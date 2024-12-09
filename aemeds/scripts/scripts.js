@@ -462,7 +462,9 @@ function isSameDomainOrPdf(url) {
       || ancUrl.hostname.toLowerCase() === 'www.servicenow.com'
       || ancUrl.hostname.toLowerCase() === 'servicenow.com'
       || ancUrl.hostname.toLowerCase().endsWith('.hlx.live')
-      || ancUrl.hostname.toLowerCase().endsWith('.hlx.page'))
+      || ancUrl.hostname.toLowerCase().endsWith('.hlx.page')
+      || ancUrl.hostname.toLowerCase().endsWith('.aem.live')
+      || ancUrl.hostname.toLowerCase().endsWith('.aem.page'))
   );
 }
 

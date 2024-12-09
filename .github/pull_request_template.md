@@ -4,9 +4,9 @@ Fix #<gh-issue-id>
 
 Test URLs:
 With Launch
-- Before: https://main--aemeds--servicenow-martech.hlx.live/blogs
-- After: https://<branch>--aemeds--servicenow-martech.hlx.live/blogs
+- Before: https://main--aemeds--servicenow-martech.aem.live/blogs
+- After: https://<branch>--aemeds--servicenow-martech.aem.live/blogs
 
 With Launch Disabled
-- Before: https://main--aemeds--servicenow-martech.hlx.live/blogs?disableLaunch=true
-- After: https://<branch>--aemeds--servicenow-martech.hlx.live/blogs?disableLaunch=true
+- Before: https://main--aemeds--servicenow-martech.aem.live/blogs?disableLaunch=true
+- After: https://<branch>--aemeds--servicenow-martech.aem.live/blogs?disableLaunch=true

@@ -1,4 +1,4 @@
 user-agent: *
 disallow: /
 
-Sitemap: https://main--servicenow--hlxsites.hlx.live/blogs/sitemap-index.xml
+Sitemap: https://main--servicenow--hlxsites.aem.live/blogs/sitemap-index.xml

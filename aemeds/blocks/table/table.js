@@ -1,7 +1,7 @@
 /*
  * Table Block
  * Recreate a table
- * https://www.hlx.live/developer/block-collection/table
+ * https://www.aem.live/developer/block-collection/table
  */
 
 function buildCell(rowIndex) {

@@ -3,8 +3,8 @@
 Service Now Blog implementation
 
 ## Environments
-- Preview: https://main--aemeds--servicenow-martech.hlx.page
-- Live: https://main--aemeds--servicenow-martech.hlx.live
+- Preview: https://main--aemeds--servicenow-martech.aem.page
+- Live: https://main--aemeds--servicenow-martech.aem.live
 
 ## Installation
 
